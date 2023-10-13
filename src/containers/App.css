@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.top{
+  display: flex;
+  justify-content: center;
+}

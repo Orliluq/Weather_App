@@ -1,0 +1,26 @@
+.container{
+    background-color:rgba(255, 255, 255, 0.717);
+    width: 30rem;
+    margin: 7rem auto;
+    text-align: justify;
+    box-shadow: 0px 0px 10px #808080;
+    padding: 3rem;
+    position: relative;
+}
+.h1{
+    font-size: 2rem;
+    margin: 0 0 1rem;
+}
+.more{
+    font-weight: 700;
+    color: #000000;
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.imgNav{
+    align-items:center;
+    border-radius: 0.8rem;
+    margin-left: 90px;
+    width: 2px;
+    height: 2px;
+}
+  
