@@ -1,0 +1,32 @@
+:root {
+  --font-size: 16px;
+}
+
+.App {
+  text-align: center;
+  font-size: var(--font-size);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.top{
+  display: flex;
+  justify-content: center;
+}
+
+/* Make the text smaller on smaller screens */
+@media (max-width: 768px) {
+  :root {
+    --font-size: 14px;
+  }
+}
+
+/* Make the row wrap on smaller screens */
+@media (max-width: 576px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
